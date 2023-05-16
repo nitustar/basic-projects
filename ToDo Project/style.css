@@ -1,0 +1,98 @@
+body{
+    background: linear-gradient(135deg,
+    rgb(16, 173, 212),
+    rgb(181, 221, 69));
+}
+
+.container {
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+#newtask {
+    position: relative;
+    padding: 30px 20px;
+    background-color:antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+}
+
+#newtask input{
+    width: 70%;
+    font-size: 20px;
+    height: 30px;
+    background-color: white;
+    color: green;
+    padding: 12px;
+    border: 2px solid rgb(114, 214, 127);
+    border-radius: 10px;
+}
+
+
+#newtask button{
+    position: relative;
+    border-radius: 10px;
+    height: 55px;
+    width: 20%;
+    float: right;
+    padding : 12px;
+    font-size: 20px;
+    background-color: rgb(114, 214, 127);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#tasks {
+    background-color: rgb(250, 243, 233);
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: relative;
+  
+}
+.task {
+    background-color:rgb(250, 243, 233);
+    height: 30px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(197, 135, 47);
+    cursor: pointer;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+}
+.task button {
+    border-radius: 5px;
+    height: 100%;
+    float: right;
+    padding : 5px;
+    font-size: 15px;
+    background-color: rgb(114, 214, 127);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: red;
+    
+    
+
+}
